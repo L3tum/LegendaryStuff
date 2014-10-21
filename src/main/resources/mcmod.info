@@ -1,0 +1,21 @@
+[
+{
+  "modid": "legendaryStuff",
+  "name": "Legendary Stuff",
+  "description": "A mod that currently adds in some very good items.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Letum"
+  ],
+  "credits": "For my girlfriend!",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
