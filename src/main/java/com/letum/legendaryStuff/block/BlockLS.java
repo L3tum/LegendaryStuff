@@ -1,6 +1,7 @@
-package com.letum.legendaryStuff.block;
+package com.letum.legendarystuff.block;
 
-import com.letum.legendaryStuff.reference.Reference;
+import com.letum.legendarystuff.creativetab.CTLS;
+import com.letum.legendarystuff.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -15,6 +16,7 @@ public class BlockLS extends Block {
 
     public BlockLS(){
         this(Material.rock);
+        this.setCreativeTab(CTLS.CTLS);
     }
     @Override
     public String getUnlocalizedName()
