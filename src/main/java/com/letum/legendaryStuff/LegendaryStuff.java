@@ -1,6 +1,6 @@
 package com.letum.legendarystuff;
 
-import com.letum.legendarystuff.Handler.ConfigHandler;
+import com.letum.legendarystuff.handler.ConfigHandler;
 import com.letum.legendarystuff.init.ModBlocks;
 import com.letum.legendarystuff.init.ModItems;
 import com.letum.legendarystuff.proxy.IProxy;
@@ -12,6 +12,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
     public class LegendaryStuff {
@@ -40,5 +41,9 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
         @Mod.EventHandler
         public void postInit(FMLPostInitializationEvent event) {
             LogHelper.info("Post Initialization Complete!");
+
+            for(String oreName : OreDictionary.getOreNames()){
+                LogHelper.info(oreName);
+            }
         }
 }

@@ -1,4 +1,4 @@
-package com.letum.legendarystuff.Handler;
+package com.letum.legendarystuff.handler;
 
 import com.letum.legendarystuff.reference.Reference;
 import net.minecraftforge.common.config.Configuration;
