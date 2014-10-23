@@ -1,2 +1,3 @@
-item.legendaryStuff:legPickaxe.name = Legendary Pickaxe
-tile.legendaryStuff:blockTit.name = Titanium Block
+item.legendarystuff:itemTit.name = Titanium Ingot
+tile.legendarystuff:blockTit.name = Titanium Block
+itemGroup.legendarystuff = Legendary Stuff

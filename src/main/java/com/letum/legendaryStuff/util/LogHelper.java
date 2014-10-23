@@ -1,6 +1,6 @@
-package com.letum.legendaryStuff.util;
+package com.letum.legendarystuff.util;
 
-import com.letum.legendaryStuff.reference.Reference;
+import com.letum.legendarystuff.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
