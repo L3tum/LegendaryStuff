@@ -17,7 +17,6 @@ public class BlockLS extends Block {
     public BlockLS(){
         this(Material.rock);
         this.setCreativeTab(CTLS.CTLS);
-        this.setHardness(5.0F);
     }
     @Override
     public String getUnlocalizedName()

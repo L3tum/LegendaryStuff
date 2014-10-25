@@ -1,5 +1,3 @@
-item.legendarystuff:itemTit.name=Titanium Ingot
-tile.legendarystuff:blockTit.name=Titanium Block
-itemGroup.legendarystuff=Legendary Stuff
-tile.legendarystuff:oreRuby.name=Ruby Ore
-item.legendarystuff:itemRuby.name=Ruby
+item.legendarystuff:itemTit.name = Titanium Ingot
+tile.legendarystuff:blockTit.name = Titanium Block
+itemGroup.legendarystuff = Legendary Stuff
