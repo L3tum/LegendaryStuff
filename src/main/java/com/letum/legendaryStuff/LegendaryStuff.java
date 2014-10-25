@@ -1,8 +1,6 @@
 package com.letum.legendaryStuff;
 
 import com.letum.legendaryStuff.Handler.ConfigHandler;
-import com.letum.legendaryStuff.init.ModBlocks;
-import com.letum.legendaryStuff.init.ModItems;
 import com.letum.legendaryStuff.proxy.IProxy;
 import com.letum.legendaryStuff.reference.Reference;
 import com.letum.legendaryStuff.util.LogHelper;
@@ -25,9 +23,6 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
         public void preInit(FMLPreInitializationEvent event) {
             ConfigHandler.init(event.getSuggestedConfigurationFile());
             FMLCommonHandler.instance().bus().register(new ConfigHandler());
-
-            ModItems.init();
-            ModBlocks.init();
 
             LogHelper.info("Pre Initialization Complete!");
         }
