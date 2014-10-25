@@ -3,6 +3,7 @@ package com.letum.legendarystuff;
 import com.letum.legendarystuff.handler.ConfigHandler;
 import com.letum.legendarystuff.init.ModBlocks;
 import com.letum.legendarystuff.init.ModItems;
+import com.letum.legendarystuff.init.Recipes;
 import com.letum.legendarystuff.proxy.IProxy;
 import com.letum.legendarystuff.reference.Reference;
 import com.letum.legendarystuff.util.LogHelper;
@@ -36,6 +37,8 @@ import net.minecraftforge.oredict.OreDictionary;
         @Mod.EventHandler
         public void init(FMLInitializationEvent event) {
             LogHelper.info("Initialization Complete!");
+
+            Recipes.init();
         }
 
         @Mod.EventHandler
