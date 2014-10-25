@@ -1,11 +1,11 @@
-package com.letum.legendarystuff;
+package com.letum.legendaryStuff;
 
-import com.letum.legendarystuff.Handler.ConfigHandler;
-import com.letum.legendarystuff.init.ModBlocks;
-import com.letum.legendarystuff.init.ModItems;
-import com.letum.legendarystuff.proxy.IProxy;
-import com.letum.legendarystuff.reference.Reference;
-import com.letum.legendarystuff.util.LogHelper;
+import com.letum.legendaryStuff.Handler.ConfigHandler;
+import com.letum.legendaryStuff.init.ModBlocks;
+import com.letum.legendaryStuff.init.ModItems;
+import com.letum.legendaryStuff.proxy.IProxy;
+import com.letum.legendaryStuff.reference.Reference;
+import com.letum.legendaryStuff.util.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;

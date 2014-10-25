@@ -1,4 +1,4 @@
-package com.letum.legendarystuff.proxy;
+package com.letum.legendaryStuff.proxy;
 
 public class ClientProxy extends CommonProxy
 {

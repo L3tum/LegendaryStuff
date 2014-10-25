@@ -1,7 +1,7 @@
-package com.letum.legendarystuff.client.gui;
+package com.letum.legendaryStuff.client.gui;
 
-import com.letum.legendarystuff.Handler.ConfigHandler;
-import com.letum.legendarystuff.reference.Reference;
+import com.letum.legendaryStuff.Handler.ConfigHandler;
+import com.letum.legendaryStuff.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

@@ -1,7 +1,6 @@
-package com.letum.legendarystuff.item;
+package com.letum.legendaryStuff.item;
 
-import com.letum.legendarystuff.creativetab.CTLS;
-import com.letum.legendarystuff.reference.Reference;
+import com.letum.legendaryStuff.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -12,7 +11,6 @@ public class ItemLS extends Item {
 
     public ItemLS(){
         super();
-        this.setCreativeTab(CTLS.CTLS);
     }
 
     @Override

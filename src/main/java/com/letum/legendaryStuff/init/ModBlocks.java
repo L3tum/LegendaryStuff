@@ -1,8 +1,8 @@
-package com.letum.legendarystuff.init;
+package com.letum.legendaryStuff.init;
 
-import com.letum.legendarystuff.block.BlockLS;
-import com.letum.legendarystuff.block.BlockTit;
-import com.letum.legendarystuff.reference.Reference;
+import com.letum.legendaryStuff.block.BlockLS;
+import com.letum.legendaryStuff.block.BlockTit;
+import com.letum.legendaryStuff.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)

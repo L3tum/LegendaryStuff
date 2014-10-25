@@ -1,10 +1,14 @@
-package com.letum.legendarystuff.Handler;
+package com.letum.legendaryStuff.Handler;
 
-import com.letum.legendarystuff.reference.Reference;
+import com.letum.legendaryStuff.reference.Reference;
+import cpw.mods.fml.client.config.GuiConfig;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 

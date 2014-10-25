@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-Alpha 0.1"
-group= "com.letum.legendarystuff" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "legendarystuff"
+group= "com.letum.legendaryStuff" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "legendaryStuff"
 
 minecraft {
     version = "1.7.10-10.13.2.1230"

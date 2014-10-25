@@ -1,4 +1,4 @@
-package com.letum.legendarystuff.client.gui;
+package com.letum.legendaryStuff.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;
