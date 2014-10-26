@@ -1,6 +1,6 @@
-package com.letum.legendaryStuff.block;
+package com.letum.legendarystuff.block;
 
-import com.letum.legendaryStuff.reference.Reference;
+import com.letum.legendarystuff.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -9,28 +9,26 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 
 public class BlockLS extends Block {
 
-    public BlockLS(Material material){
+    public BlockLS(Material material) {
         super(material);
     }
 
-    public BlockLS(){
+    public BlockLS() {
         this(Material.rock);
     }
+
     @Override
-    public String getUnlocalizedName()
-    {
+    public String getUnlocalizedName() {
         return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override
     @SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister iconRegister)
-    {
+    public void registerBlockIcons(IIconRegister iconRegister) {
         blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
     }
 
-    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
-    {
+    protected String getUnwrappedUnlocalizedName(String unlocalizedName) {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
 }
