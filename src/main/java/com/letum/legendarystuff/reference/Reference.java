@@ -8,6 +8,6 @@ public class Reference {
     public static final String SERVER_PROXY_CLASS = "com.letum.legendarystuff.proxy.ServerProxy";
     public static final String GUI_FACTORY_CLASS = "com.letum.legendarystuff.client.gui.GuiFactory";
 
-    public static final String WG1 = "RUBY WORLDGENERATION";
-    public static final String WG2 = "TITANIUM WORLDGENERATION";
+    public static final String WG1 = "ruby worldgeneration";
+    public static final String WG2 = "titanium worldgeneration";
 }
